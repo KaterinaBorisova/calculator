@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1600628421066-f6bda6a7b976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2QlMjBmcmllbmRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+}
+h1{
+    align-self: center;
+    color: #f7dbf0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(94,97,93,0.9);
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+}    
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+#addTip{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #78dec7;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+#btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7dbf0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#tip{
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+}
+#ShowTotalAmountToPlay{
+    display: flex;
+}
+#billSplit, #totalTip, #totalAmount{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(147,198,142,0.9);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+@media all and (max-width:800px) {
+    .container{
+        width: 450px;
+    }
+    
+}
+@media all and (max-width:500px) {
+    .container{
+        width: 390px;
+    }
+}
